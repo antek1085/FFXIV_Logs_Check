@@ -36,10 +36,10 @@ public sealed class Plugin : IDalamudPlugin
 
         // you might normally want to embed resources and load them from the manifest stream
 
-        /*ConfigWindow = new ConfigWindow(this);*/
+        ConfigWindow = new ConfigWindow(this);
         MainWindow = new MainWindow(this);
 
-        /*WindowSystem.AddWindow(ConfigWindow);*/
+        WindowSystem.AddWindow(ConfigWindow);
         WindowSystem.AddWindow(MainWindow);
 
         CommandManager.AddHandler(CommandName,
@@ -135,6 +135,6 @@ public sealed class Plugin : IDalamudPlugin
     }
     
     private void DrawUI() => WindowSystem.Draw();
-    /*public void ToggleConfigUI() => ConfigWindow.Toggle();*/
+    public void ToggleConfigUI() => ConfigWindow.Toggle();
     public void ToggleMainUI() => MainWindow.Toggle();
 }
