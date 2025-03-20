@@ -6,11 +6,13 @@
   "Description": "Now you can check players and yours logs easier with one button click",
   "ApplicableVersion": "any",
   "Tags": [
-    "sample",
+    "logs",
     "plugin",
-    "goats"
+    "vueko",
+      "raiding"
   ],
   "DalamudApiLevel": 11,
+    "IconUrl": "https://raw.githubusercontent.com/antek1085/FFXIV_Logs_Check/master/Plugin/Addon_icon.jpg",
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
