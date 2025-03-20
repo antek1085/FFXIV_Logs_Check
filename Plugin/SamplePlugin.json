@@ -17,6 +17,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
+    "RepoUrl":"https://github.com/antek1085/FFXIV_Logs_Check",
     "DownloadLinkInstall": "https://github.com/antek1085/FFXIV_Logs_Check/releases/download/Testing/Test_Releases.zip",
     "DownloadLinkTesting": "https://github.com/antek1085/FFXIV_Logs_Check/releases/download/Testing/Test_Releases.zip",
     "DownloadLinkUpdate":"https://github.com/antek1085/FFXIV_Logs_Check/releases/download/Testing/Test_Releases.zip",
