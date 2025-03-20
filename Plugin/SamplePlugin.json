@@ -17,6 +17,9 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
+    "DownloadLinkInstall": "https://github.com/antek1085/FFXIV_Logs_Check/releases/download/Testing/Test_Releases.zip",
+    "DownloadLinkTesting": "https://github.com/antek1085/FFXIV_Logs_Check/releases/download/Testing/Test_Releases.zip",
+    "DownloadLinkUpdate":"https://github.com/antek1085/FFXIV_Logs_Check/releases/download/Testing/Test_Releases.zip",
   "Punchline": "Check players Logs easier with one button",
   "AcceptsFeedback": true
 }

@@ -1,12 +1,22 @@
 {
-  "Author": "your name here",
-  "Name": "Sample Plugin",
-  "Punchline": "A short one-liner that shows up in /xlplugins.",
-  "Description": "A description that shows up in /xlplugins. List any major slash-command(s).",
+  "Author": "Vueko",
+  "Name": "FFXIV Logs Checker",
+  "InternalName": "FFXIV Logs Checker",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "Now you can check players and yours logs easier with one button click",
   "ApplicableVersion": "any",
   "Tags": [
-    "sample",
+    "logs",
     "plugin",
-    "goats"
-  ]
+    "vueko",
+      "raiding"
+  ],
+  "DalamudApiLevel": 11,
+        "IconUrl": "https://raw.githubusercontent.com/antek1085/FFXIV_Logs_Check/master/Addon_icon.jpg",
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Check players Logs easier with one button",
+  "AcceptsFeedback": true
 }
